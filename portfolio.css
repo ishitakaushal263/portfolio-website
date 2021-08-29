@@ -314,9 +314,11 @@
     border-radius: 5px;
   }
   .button {
-    margin-left: 15vw;
-    margin-top: 20px;
+    /* margin-left: 14vw;*/
+    position: relative;
+    top: 10px;
     padding: 10px;
+    margin: auto;
     width: 150px;
     border-radius: 30px;
     /* height: 20px; */
