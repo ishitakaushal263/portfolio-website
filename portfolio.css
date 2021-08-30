@@ -421,6 +421,8 @@
     }
    .division_image3{
      margin-left: 700px;
+     margin-bottom: 50px;
+     /* border: darkgreen 2px solid; */
    }
    .div_container_2::before{
      background: url(./circle-2.svg);
@@ -432,17 +434,17 @@
    }
    .division_image1:hover{
      border: black 2px solid;
-     transform: scale(1.4);
+     transform: scale(1.3);
      transition: 1s;
    }
    .division_image2:hover{
     border: black 2px solid;
-    transform: scale(1.4);
+    transform: scale(1.3);
     transition: 1s;
    }
    .division_image3:hover{
     border: black 2px solid;
-    transform: scale(1.4);
+    transform: scale(1.3);
     transition: 1s;
    }
    .table_div{
@@ -457,7 +459,7 @@
 
    }
    .table_class:hover{
-     transform: 1s;
+     transition: 3s;
      transform: scale(1.1);
      box-shadow: 1px 1px 2px black;
    }
