@@ -355,4 +355,131 @@
     margin-left: 140px;
     border-radius: 20px;
   }
+
+
+  @media(min-width:1024px){
+    .nav_div_list{
+      gap: 30px;
+
+    }
+    .nav_div_list li{
+      font-size: larger;
+      font-weight: bolder;
+      font-weight: 900;
+      /* margin-right: 10px; */
+    }
+    .nav_div_list li a:hover{
+      color: rgb(177, 114, 130);
+    }
+    .nav_image:hover{
+      transform: rotateX(360deg);
+      transition: 2s;
+    }
+    .main_div_para1{
+      font-size: medium;
+      font-weight: 800;
+      left: 40px;
+      /* border: mediumvioletred 2px solid; */
+      display: inline-block;
+    }
+    .main_div_container::before {
+      background-size: contain;
+      background-repeat: repeat-x;
+    } 
+    .main_div_para2{
+      margin-left: 50px;
+      font-weight: 1000px;
+      font-size: xx-large;
+      font-weight: bolder;
+      margin-bottom: 10px;
+    }
+    .para4{
+      font-weight: 800;
+      font-size: large;
+    }
+    .main_div_image:hover{
+      transform: rotateX(30deg);
+    }
+    .div_design::before{
+      background-size: contain;
+      background-repeat: repeat-x;
+      top: 5px;
+
+    }
+    .para7{
+      font-weight: 900;
+      font-size: x-large;
+    }
+    .para8{
+      font-weight: 900;
+      font-size: x-large;
+    }
+    .main_division_images_skills{
+      /* border: mediumvioletred 2px solid; */
+      text-align: center;
+
+    }
+   .division_image3{
+     margin-left: 700px;
+   }
+   .div_container_2::before{
+     background: url(./circle-2.svg);
+     background-size: contain;
+     background-repeat: repeat-x;
+   }
+   .main_division_images_skills::before{
+     background: none;
+   }
+   .division_image1:hover{
+     border: black 2px solid;
+     transform: scale(1.4);
+     transition: 1s;
+   }
+   .division_image2:hover{
+    border: black 2px solid;
+    transform: scale(1.4);
+    transition: 1s;
+   }
+   .division_image3:hover{
+    border: black 2px solid;
+    transform: scale(1.4);
+    transition: 1s;
+   }
+   .table_div{
+     text-align: center;
+   }
+   .table_class{
+     width: 60%;
+     text-align: center;
+     margin-left: 310px;
+     /* -webkit-background-filter: blur(5px);
+     backdrop-filter: blur(5px); */
+
+   }
+   .table_class:hover{
+     transform: 1s;
+     transform: scale(1.1);
+     box-shadow: 1px 1px 2px black;
+   }
+   .button:hover{
+       width: 40%;
+       transition: 1s;
+       background: rgb(142, 184, 184);
+       border: rgb(175, 112, 29);
+       /* transform-style: preserve-3d; */
+   }
+   .image_bottom{
+     margin-left: 700px;
+
+     
+   }
+   .image_bottom:hover{
+     /* border: black 5px solid; */
+     transform: scale(2);
+     transition: 2s;
+     transform: rotateY(360deg);
+   }
+   
+
+  }
   
